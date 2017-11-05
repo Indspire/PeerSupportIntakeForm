@@ -1,0 +1,9 @@
+  span i{
+    transition: all .2s;
+  }
+.rotateIcon{
+  span i{
+    transition: all .3s;
+    transform: rotate(90deg);
+  }
+}

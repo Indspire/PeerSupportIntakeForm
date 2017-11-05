@@ -1,0 +1,207 @@
+<div id="menteeform" class="container fade-in" style="width: 80%;">
+  <div class="title has-text-centered">Mentee Application Form</div>
+  <div class="columns">
+    <div class="column">
+        <span class="icon is-medium">
+          <i class="fa fa-2x fa-check-circle"></i>
+        </span>
+        <p class="subtitle">Personal Information</p>
+    </div>
+    <div class="column">
+        <span class="icon is-medium">
+          <i class="fa fa-2x fa-check-circle"></i>
+        </span>
+        <p class="subtitle">Education</p>
+    </div>
+  </div>
+    <div class=columns>
+
+    <div class="column"><progress class="progress is-warning" value="100" max="100" style=""></progress>
+    </div>
+    <div class="column"><progress class="progress is-warning" value="10" max="100"></progress>
+    </div></div>
+  <div class="box">
+      <form id="menteeForm" action="">
+        <label for="" class="title">Personal Information</label>
+        <br><br>
+          <div class="columns">
+            <div class="column">
+                <label for="" class="label has-text-grey-light">Salutation</label>
+                <div class="field">
+                  <div class="control">
+                    <div class="select is-wide">
+                      <select class="input select" name="" id="">
+                        <option value="">Select</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Ms.">Ms.</option>
+                        <option value="Dr.">Dr.</option>
+                      </select>
+                    </div>
+                  </div>
+                <div class="control">
+                  <label for="" class="label has-text-grey-light">First Name:</label>
+                  <input id="name" type="text" class="input" name="name">
+                </div>
+                <div class="control">
+                  <label for="" class="label has-text-grey-light">Adress No:</label>
+                  <input id="address" type="text" class="input" name="adressNo">
+                </div>
+                <div class="control">
+                  <label for="" class="label has-text-grey-light">Street Name:</label>
+                  <input id="streetName" type="text" class="input" name="streetName">
+                </div>
+
+                  <label for="" class="label has-text-grey-light">Province</label>
+                <div class="control select">
+
+                  <select class="select" name="" id="">
+                    <option value="">Choose A Province</option>
+                    <option value="Ontario">Ontario</option>
+                    <option value="Quebec">Quebec</option>
+                    <option value="Alberta">Alberta</option>
+                    <option value="British Columbia">British Columbia</option>
+                    <option value="Manitoba">Manitoba</option>
+                    <option value="Saskatchewan">Saskatchewan</option>
+                    <option value="New Brunswick">New Brunswick</option>
+                    <option value="PEI">PEI</option>
+                    <option value="Nova Scotia">Nova Scotia</option>
+                    <option value="Nunavut">Nunavut</option>
+                    <option value="Northwest Territories">Northwest Territories</option>
+                    <option value="Yukon Territory">Yukon Teriritory</option>
+                  </select>
+                </div>
+                  <div class="control">
+                    <label for="" class="label has-text-grey-light">Home Telephone:(***-****-****)</label>
+                    <input type="text" class="input" name='homephone'>
+                  </div>
+                  <div class="control">
+                    <label for="" class="label has-text-grey-light">Work Telephone:(***-****-****)</label>
+                    <input type="text" class="input" name='workphone'>
+                  </div>
+
+                    <label for="" class="label has-text-grey-light">Best Time of day to contact?</label>
+                  <div class="control select">
+                    <select class="select" name="" id="">
+                      <option value="">Select</option>
+                      <option value="Morning">Morning</option>
+                      <option value="Day">Day</option>
+                      <option value="Night">Night</option>
+                    </select>
+                  </div>
+                  <div class="control">
+                    <label for="" class="label has-text-grey-light">Primary Email</label>
+                    <input type="mail" class="input">
+                  </div>
+              </div>
+            </div>
+            <div class="column">
+                <label for="" class="label has-text-grey-light">Gender:</label>
+                <div class="field">
+                  <div class="control is-size-5">
+                    <label for="" class="radio"> &nbsp;
+                      <input type="radio" name="gender" value="Male">
+                      Male
+                    </label>
+                    <label for="" class="radio"> &nbsp;
+                      <input type="radio" name="gender" value="Female">
+                      Female
+                    </label>
+                  </div>
+                    <div class="control">
+                      <label for="" class="label has-text-grey-light">Last Name:</label>
+                      <input class="input" type="text" name="lastname">
+                    </div>
+                    <div class="control">
+                      <label for="" class="label has-text-grey-light">Town/City</label>
+                      <input class="input" type="text" name="towncity">
+                    </div>
+                    <div class="control">
+                      <label for="" class="label has-text-grey-light">Postal Code</label>
+                      <input class="input" type="text" name="postal code">
+                    </div>
+                    <br><br><br>
+                    <div class="control">
+                      <label for="" class="label has-text-grey-light">Cell</label>
+                      <input class="input" type="text" name="cellphone">
+                    </div>
+                    <br><br><br><br><br>
+                    <div class="control">
+                      <label for="" class="label has-text-grey-light">Secondary Email</label>
+                      <input class="input" type="mail" name="secondEmail">
+                    </div>
+                </div>
+            </div>
+          </div>
+      </form>
+      <form id="menteeFormSecondary" action="">
+          <label for="" class="label title">Education:</label>
+          <br><br>
+          <label for="" class="label subtitle">Please indicate the highest Degree or level of education you have completed:</label>
+          <div class="field">
+            <div class="control">
+              <input type="radio" class="radio" name="education"> Bachelors Degree(s) <br>
+              <input type="radio" class="radio" name="education"> Masters Degree(s) <br>
+              <input type="radio" class="radio" name="education"> Doctorate Degree <br>
+              <input type="radio" class="radio" name="education"> Professional Degree <br>
+            </div>
+            <br>
+            <div class="control">
+              <label for="" class="label has-text-grey-light">I am a</label>
+              <input type="radio" name="studentstatus"> High School Student
+              <input type="radio" name="studentstatus"> Post-Secondary School Student
+            </div>
+            <div class="control">
+              <label for="" class="label has-text-grey-light">Indigenous Affiliation:</label>
+              <div class="select">
+                <select name="indigenous" id="">
+                  <option value="">Select an Indigenous Affiliation</option>
+                  <option value="Status First Nation">Status First Nation</option>
+                  <option value="Non Status First Nation">Non-Status First Nation</option>
+                  <option value="Inuit">Inuit</option>
+                  <option value="Metis">Metis</option>
+                  <option value="Non Indigenous">Non Indigenous</option>
+                </select>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <label for="" class="label has-text-grey-light">Band (if applicable)</label>
+                  <input type="" class=input name=band>
+                  <label for="" class="label has-text-grey-light">Indgenous Language Spoken(if applicable)</label>
+                  <input type="" class=input name=indigenouslanguage>
+                </div>
+                <div class="column">
+                    <label for="" class="label has-text-grey-light">Nation(if applicable)</label>
+                    <input type="text" class="input" name=nation>
+                    <label for="" class="label has-text-grey-light">Preferred Language for communication</label>
+                  <div class=columns>
+                    <div class=column><input type="radio" name=language class=is-size-5> English
+                    </div>
+                    <div class='column'>
+                    <input type="radio" name=language class='is-size-5'> French
+                    </div>
+                </div>
+            </div>
+
+              </div>
+            </div>
+            <br>
+            <div class="control">
+              <label for="" class="label has-text-grey-light">
+                Please Check All That Apply and list your Area
+              </label>
+              <label for="" class="checkbox">
+                <input type="checkbox"> 3-Part Specialist Certificate <br>
+                <input type="checkbox"> Addition Qualifaction(AQ) <br>
+                <input type="checkbox"> Additional Basic Qualification <br>
+                <input type="checkbox"> Principal Qualification Program <br>
+                <input type="checkbox"> Supervisory Officer Qualification(SOQ) <br>
+              </label>
+            </div>
+          </div>
+      </form>
+</div>
+<div class="control has-text-centered">
+  <a (click)="nextForm()" class="button is-large" style='margin: 0 auto;'>Next &nbsp; <span class="icon"> <i class="fa fa-arrow-right"></i></span></a>
+</div>
+</div>
